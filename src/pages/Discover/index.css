@@ -1,0 +1,32 @@
+.discover-page {
+
+}
+
+.last-videos, .trending {
+    height: 35%;
+    display: flex;
+}
+
+.last-videos .video-block,
+.trending .video-block {
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+.trending .left,
+.trending .right {
+    z-index: 1;
+}
+
+.trending .right svg path,
+.trending .left svg path {
+    stroke: white;
+}
+
+.last-videos {
+    overflow-x: auto;
+}
+
+.slider-wrapper {
+    height: 30%;
+}
